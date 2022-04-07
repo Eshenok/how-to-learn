@@ -43,6 +43,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -153,6 +154,7 @@
 }
 
 .table {
+  margin: 0;
   padding: 0;
   width: 1100px;
   z-index: 1;
