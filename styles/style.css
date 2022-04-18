@@ -329,3 +329,40 @@
   height: 16px;
   margin-right: 10px;
 }
+
+/*technique*/
+
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards {
+  width: 920px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 100px;
+  row-gap: 60px;
+  padding-top: 60px;
+}
+
+.cards__image {
+  width: 160px;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  text-align: center;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+}
