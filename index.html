@@ -7,8 +7,7 @@
   <meta name="keywords" content="Яндекс.Практикум, Научиться Учиться, Первая работа, Метод Феймана, Метод Кауфмана">
   <meta name="author" content="Александр Волошин">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" type="text/css" href="./vendor/normalize.css">
-  <link rel="stylesheet" type="text/css" href="./pages/index/index.css">
+  <link rel="stylesheet" type="text/css" href="./pages/index.css">
 </head>
 <body>
   <div class="page">
@@ -18,7 +17,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению Вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать &rarr;</a></p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Картина 'Опять Двойка'">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -37,41 +36,41 @@
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <div class="cards">
-          <div class="cards__item">
+        <ul class="cards">
+          <li class="cards__item">
             <img src="./images/cards-attention.png" alt="Книга '101 эссе, которые изменят ваше мышление'" class="cards__image">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-recall.png" alt="Скульптура мальчик со свирелью" class="cards__image">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-interliving.png" alt="Вокзал Сантьяго Калатрава, Нью-Йорк" class="cards__image">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-question.png" alt="Городская библиотека Штутгарта, Германия" class="cards__image">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-competence.png" alt="Книги на ладони" class="cards__image">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -134,10 +133,10 @@
 
       <section class="khan">
         <div class="khan__container">
-          <cite class="khan__author">Салман Хан</cite>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <q class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</q>
-          <cite class="khan__quote-author">Джордж Лукас</cite>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
+          <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="Книга 'Весь мир - школа'" class="khan__book-pic">
@@ -192,7 +191,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p> 
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
       <section class="resources">
